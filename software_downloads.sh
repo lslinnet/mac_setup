@@ -40,6 +40,9 @@ open http://www.mozilla.org/products/download.html?product=firefox-16.0.2&os=osx
 # Fluid
 open http://fluidapp.com/dist/Fluid_1.6.1.zip
 
+# Google Chrome
+open https://www.google.com/intl/en_GB/chrome/browser/thankyou.html
+
 # Google Drive
 open https://tools.google.com/dlpage/drive/thankyou.html?hl=en_US&pli=1
 
@@ -49,8 +52,8 @@ open https://github.com/specialunderwear/Hosts.prefpane/downloads
 # HTTPscoop
 open http://static.tuffcode.com.s3-website-us-east-1.amazonaws.com/HTTPScoop_1.4.3.dmg
 
-# Google Chrome
-open https://www.google.com/intl/en_GB/chrome/browser/thankyou.html
+# iStat
+open http://www.macupdate.com/download/20364/istat_pro_4.92.zip
 
 # KeePassX
 open http://sourceforge.net/projects/keepassx/files/KeePassX/0.4.3/KeePassX-0.4.3.dmg/download?use_mirror=heanet
