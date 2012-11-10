@@ -4,6 +4,11 @@
 # 2012/11/10
 # sjugge@heretiksambrosia.net
 
+# show hidden files
+echo "ensuring hidden files are shown in Finder"
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
+
 ###########
 # Dropbox #
 ###########
