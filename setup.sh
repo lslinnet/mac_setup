@@ -62,6 +62,34 @@ clear
 		wait
 	cd ~/Downloads/mac_setup-master
 
+# Drush setup
+	# Ask confirmation
+	echo "Do you want to set up Drush? [y/n]: "
+	read -e YN
+	if [ "" = "n" ]; then
+		echo "Skipping Drush setup"
+		exit
+	fi
+	# Run the script
+	echo "Running the Drush setup script"
+		sh drush_setup.sh
+		wait
+	cd ~/Downloads/mac_setup-master
+
+# Defaults and tweaks
+	# Ask confirmation
+	echo "Do you want to run the sensible and tweak config script? [y/n]: "
+	read -e YN
+	if [ "" = "n" ]; then
+		echo "Skipping setup sensible and tweak script"
+		exit
+	fi
+	# Run the script
+	echo "Running the sensible and tweak script"
+		sh defaults_and_tweaks.sh
+		wait
+	cd ~/Downloads/mac_setup-master
+
 echo "end"
 
 # cleaning up
