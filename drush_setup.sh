@@ -9,7 +9,7 @@ cd ~/Workspace
 
 # clone drush
 echo "cloning Drush"
-git clone --recursive --branch 7.x-5.x http://git.drupal.org/project/drush.git
+git clone --recursive --branch 7.x-5.x http://git.drupal.org/project/drush.git Drush
 wait
 
 # make drush executable
@@ -19,4 +19,4 @@ chmod u+x ~/Workspace/drush/drush
 sudo ln -s ~/Workspace/drush/drush /usr/bin/drush
 
 # add drush to your PATH
-export PATH="$PATH:/path/to/drush:/usr/local/bin"
+export PATH="$PATH:~/Workspace/drush/drush:/usr/local/bin"
