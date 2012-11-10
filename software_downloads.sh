@@ -41,7 +41,10 @@ open http://www.mozilla.org/products/download.html?product=firefox-16.0.2&os=osx
 open http://fluidapp.com/dist/Fluid_1.6.1.zip
 
 # Google Drive
-open https://www.google.com/intl/en_GB/drive/start/download.html
+open https://tools.google.com/dlpage/drive/thankyou.html?hl=en_US&pli=1
+
+# Hosts.prefpane
+open https://github.com/specialunderwear/Hosts.prefpane/downloads
 
 # HTTPscoop
 open http://static.tuffcode.com.s3-website-us-east-1.amazonaws.com/HTTPScoop_1.4.3.dmg
