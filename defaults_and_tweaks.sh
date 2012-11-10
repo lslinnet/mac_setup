@@ -525,7 +525,7 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 ###############################################################################
 
 # User image
-# defaults write /Library/Preferences/com.apple.loginwindow DesktopPicture -path ~/Cloud/Dropbox/Sjugge/Pictures/Avatars/sjugge\-\no\scalpel.jpeg
+# defaults write /Library/Preferences/com.apple.loginwindow DesktopPicture -path ~/Cloud/Dropbox/Sjugge/Pictures/Avatars/sjugge\ -\ no\ scalpel.jpeg
 
 # Desktop Background
 # defaults write com.apple.desktop Background '{default = {ImageFilePath = "~/Cloud/Dropbox/Sjugge/Pictures/Cloud/Dropbox/Sjugge/Pictures/Wallpapers/clean-mac-brushed.png"; };}'
