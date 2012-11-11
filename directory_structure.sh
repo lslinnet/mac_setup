@@ -17,7 +17,7 @@ echo "Symlinked Credentials from Dropbox to ~/Workspace"
 
 # symlink Dropbox Sequel Pro folder to ~/Workspace
 ln -s Cloud/Dropbox/Sjugge/Workspace/Sequel_pro/ Workspace/Sequel_pro
-echo "Symlinked Sequel_pro from Dropbox to ~/Workspace
+echo "Symlinked Sequel_pro from Dropbox to ~/Workspace"
 
 # Setup Workspace
 cd ~/Workspace
