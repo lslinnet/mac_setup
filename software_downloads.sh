@@ -11,7 +11,8 @@ if [ "" = "n" ]; then
     echo "Skipping software downloads"
       exit
     fi
-echo "Some browser tabs will be opened to do the downloads"
+echo "Some browser tabs will be opened to do the downloads, beware of the Safari download rain..."
+sleep 5
 
 # Adium
 open http://sourceforge.net/projects/adium/files/Adium_1.5.4.dmg/download
@@ -75,6 +76,9 @@ open http://sequel-pro.googlecode.com/files/Sequel_Pro_0.9.9.1.dmg
 
 # Skype
 open http://www.skype.com/intl/en/get-skype/on-your-computer/macosx/post-download/
+
+# Sublime Text 2
+open http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg
 
 # Symbolic linker
 open http://seiryu.home.comcast.net/~seiryu/software/SymbolicLinker2.0v3.dmg
