@@ -23,12 +23,16 @@ echo "Symlinked Sequel_pro from Dropbox to ~/Workspace"
 cd ~/Workspace
 echo "Setting up the ~/Workspace"
 
-# Create VM directory
-mkdir VM
-echo "Created VM directory in Workspace"
+# Create db dump directory
+mkdir db-dumps
+echo "db dump directory created in Workspace"
 
 # Create Projects directory
 mkdir Projects
 echo "Projects directory created in Workspace"
+
+# Create VM directory
+mkdir VM
+echo "Created VM directory in Workspace"
 
 echo "finished running the directory strucure script"
