@@ -7,6 +7,10 @@
 # go home
 cd
 
+# create Sites directory
+mkdir Sites
+echo "Created ~/Sites directory"
+
 # create Workspace
 mkdir Workspace
 echo "Created ~/Workspace directory"
