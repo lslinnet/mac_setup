@@ -89,5 +89,8 @@ open http://www.panic.com/transmit/d/Transmit%204.2.zip
 # VLC
 open http://sourceforge.net/projects/vlc/files/latest/download?source=recommended
 
+# Voila
+open http://www.globaldelight.com/voila/download-trial.php
+
 # finish up
 echo "All downloads should be in progress or links to the download will be available in your browser, you may want to review open tabs and downloads before closing the tabs."
