@@ -39,4 +39,9 @@ echo "Projects directory created in Workspace"
 mkdir VM
 echo "Created VM directory in Workspace"
 
+# Symlink Sublime Text user prefs
+# should probably be done in a post software installer script
+ln -s ~/Workspace/dotfiles/sublime\ text\ 2/user\ settings/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+
+
 echo "finished running the directory strucure script"
