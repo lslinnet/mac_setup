@@ -92,5 +92,9 @@ open http://sourceforge.net/projects/vlc/files/latest/download?source=recommende
 # Voila
 open http://www.globaldelight.com/voila/download-trial.php
 
+# Xtrafinder
+
+open http://www.trankynam.com/xtrafinder/downloads/XtraFinder.dmg
+
 # finish up
 echo "All downloads should be in progress or links to the download will be available in your browser, you may want to review open tabs and downloads before closing the tabs."
