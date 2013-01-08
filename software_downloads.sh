@@ -86,6 +86,9 @@ open http://seiryu.home.comcast.net/~seiryu/software/SymbolicLinker2.0v3.dmg
 # Transmit
 open http://www.panic.com/transmit/d/Transmit%204.2.zip
 
+# TypeIt4Me
+open http://www.ettoresoftware.com/products/typeit4me/downloads/TypeIt4Me.dmg
+
 # VLC
 open http://sourceforge.net/projects/vlc/files/latest/download?source=recommended
 
