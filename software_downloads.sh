@@ -29,6 +29,9 @@ open http://pine.barebones.com/files/BBEdit_10.1.2.dmg
 # Clean My Mac
 open http://macpaw.com/download/cleanmymac
 
+# Droplr
+open https://droplr.com/download/macdroplr
+
 # Egnyte
 open http://www.egnyte.com/downloads/clients/Egnyte%20Local%20Cloud%20Setup.dmg
 
