@@ -9,7 +9,7 @@ cd ~/Workspace
 
 # clone drush
 echo "cloning Drush"
-git clone --recursive --branch 7.x-5.x http://git.drupal.org/project/drush.git Drush
+git clone --branch 8.x-6.x http://git.drupal.org/project/drush.git Drush
 wait
 
 # make drush executable
