@@ -8,12 +8,12 @@
 cd
 
 # Symlink .ssh folder
-ln -s ~/Cloud/Dropbox/Sjugge/.ssh/ ~/.ssh
+ln -s ~/Cloud/Dropbox/.ssh/ ~/.ssh
 
 # Symlink .gitconfig
-ln -s ~/Cloud/Dropbox/Sjugge/.gitconfig ~/.gitconfig
+ln -s ~/Cloud/Dropbox/.gitconfig ~/.gitconfig
 
 # Symlink .subversion
-ln -s ~/Cloud/Dropbox/Sjugge/.subversion/ ~/.subversion
+ln -s ~/Cloud/Dropbox/.subversion/ ~/.subversion
 
 echo "Finished running the .ssh and version control symlink script"

@@ -16,11 +16,11 @@ mkdir Workspace
 echo "Created ~/Workspace directory"
 
 # symlinking Dropbow Workspace folders to ~/Workspace
-ln -s ~/Cloud/Dropbox/Sjugge/Workspace/Credentials ~/Workspace/Credentials
+ln -s ~/Cloud/Dropbox/Workspace/Credentials ~/Workspace/Credentials
 echo "Symlinked Credentials from Dropbox to ~/Workspace"
 
 # symlink Dropbox Sequel Pro folder to ~/Workspace
-ln -s ~/Cloud/Dropbox/Sjugge/Workspace/Sequel_pro/ ~/Workspace/Sequel_pro
+ln -s ~/Cloud/Dropbox/Workspace/Sequel_pro/ ~/Workspace/Sequel_pro
 echo "Symlinked Sequel_pro from Dropbox to ~/Workspace"
 
 # Setup Workspace

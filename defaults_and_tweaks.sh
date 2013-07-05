@@ -18,10 +18,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "WK-MPB-sjugge"
-sudo scutil --set HostName "WK-MPB-sjugge"
-sudo scutil --set LocalHostName "WK-MPB-sjugge"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "WK-MPB-sjugge"
+sudo scutil --set ComputerName "adapt-lslinnet"
+sudo scutil --set HostName "adapt-lslinnet"
+sudo scutil --set LocalHostName "adapt-lslinnet"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "adapt-lslinnet"
 
 # Menu bar: disable transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
@@ -152,12 +152,12 @@ defaults write com.apple.BezelServices kDimTime -int 30
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
 # `Inches`, and `true` with `false`.
 # defaults write NSGlobalDomain AppleLanguages -array "en" "nl"
-defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=EUR"
+defaults write NSGlobalDomain AppleLocale -string "da_DK@currency=DKK"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Set the timezone; see `systemsetup -listtimezones` for other values
-systemsetup -settimezone "Europe/Brussels" > /dev/null
+systemsetup -settimezone "Europe/Copenhagen" > /dev/null
 
 # Disable auto-correct
 # defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -167,8 +167,8 @@ systemsetup -settimezone "Europe/Brussels" > /dev/null
 ###############################################################################
 
 # Require password immediately after sleep or screen saver begins
-# defaults write com.apple.screensaver askForPassword -int 1
-# defaults write com.apple.screensaver askForPasswordDelay -int 0
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 30
 
 # Save screenshots to the desktop
 defaults write com.apple.screencapture location -string "$HOME/Desktop"
