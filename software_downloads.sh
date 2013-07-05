@@ -92,5 +92,8 @@ open http://www.globaldelight.com/voila/download-trial.php
 # Totalfinder
 open http://downloads.binaryage.com/TotalFinder-1.4.16.dmg
 
+# PHPStorm
+open http://www.jetbrains.com/phpstorm/download/download_thanks.jsp?os=mac
+
 # finish up
 echo "All downloads should be in progress or links to the download will be available in your browser, you may want to review open tabs and downloads before closing the tabs."
